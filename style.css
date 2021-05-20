@@ -1,0 +1,162 @@
+.ali{
+
+    animation: ali normal 4s 1s , tt ease-in-out 2s infinite;
+    opacity: 0;
+    animation-fill-mode: forwards;
+}
+
+@keyframes ali {
+    0%{
+
+        transform: translate(-70px);
+       
+    }
+
+    25%{
+        transform: scale(2);
+
+    }
+    100%{
+        opacity: 1;
+    }
+}
+
+
+@keyframes tt {
+    0%{
+
+        text-shadow: 1px 1px 5px violet, 1px 1px 5px rgb(221, 218, 23);
+    }
+    25%{
+        text-shadow: 1px 1px 5px rgb(221, 218, 23), 1px 1px 5px violet;
+
+
+    }
+
+    50%{
+
+        text-shadow: 1px 1px 5px rgb(16, 43, 160),  1px 1px 5px rgb(42, 253, 35);
+
+    }
+
+    75%{
+
+        text-shadow: 1px 1px 5px rgb(42, 253, 35), 1px 1px 5px rgb(16, 43, 160);
+
+    }
+
+    100%{
+        text-shadow: 1px 1px 5px rgb(255, 159, 16),1px 1px 5px violet ;
+
+
+    }
+}
+
+
+.nav-link{
+
+    animation: nav normal 3s 1s;
+    opacity: 0;
+    animation-fill-mode: forwards;
+}
+
+@keyframes nav {
+    0%{
+        color: rgb(255, 24, 24);
+        border: yellow dotted 1px;
+        border-radius: 10px;
+        transform: translatey(-70px);
+    }
+
+    75%{
+        color: rgb(255, 24, 24);
+background-color: violet;
+        border: yellow dotted 1px;
+        border-radius: 10px;
+    }
+    100%{
+
+        opacity: 1;
+    }
+}
+
+#search{
+    background-color: rgb(255, 255, 250);
+    animation: se normal 4s 1s;
+    opacity: 0;
+    animation-fill-mode: forwards;
+}
+
+@keyframes se {
+    0%{        
+
+        transform: translate(230px);
+        opacity: 1;
+
+    }
+
+    50%{
+        border: yellow dotted 1px;
+        border-radius: 10px;
+        background-color: rgb(255, 196, 0);
+        opacity: 1;
+
+    }
+    100%{       
+        border: yellow dotted 2px;
+        border-radius: 10px;
+
+        opacity: 1;
+    }
+}
+
+
+
+
+#mm{
+    animation: mm normal 4s;
+
+}
+
+@keyframes mm {
+    0%{        
+        transform: translate(-900px);
+
+    }
+
+    75%{
+        transform: rotate(5deg);
+
+    }
+}
+
+
+
+#rr{
+    animation: rr normal 4s 1s;
+    opacity: 0;
+    animation-fill-mode: forwards;
+
+}
+
+@keyframes rr {
+    0%{        
+        transform: translate(600px);
+
+    }
+50%{
+
+transform: translate3d(150px,150px,150px);
+}
+    75%{
+        transform: rotate(360deg);
+
+    }
+
+
+
+    100%{
+        opacity: 1;
+
+    }
+}
